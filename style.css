@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cookie {
+    width: 10vw;
+}
+
+button {     
+    background-color: Transparent;
+    height: 20vh;
+}
+
+.width_section{
+    height: 100%;
+    width: 100%;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

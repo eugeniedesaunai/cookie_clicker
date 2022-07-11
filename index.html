@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./style.css"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Cookie Clicker</title>
 </head>
 <body>
-    <button id="affichage" class="button">
+    <div class="flex width_section ">
+        <button id="clic width_button" onclick="augmenterAffichage()">
+            <img class="cookie" src="./img/5a2306f3b82341.2275001415122449797542.png" alt="">
+        </button>
+        <div id="score"> 0</div>
+        <button onclick="augmenterMultiplicateur()"> 
+            <p id="multiplier">multiplier par :</p>
 
-    </button>
+            <p id="prix"> prix du multiplicateur : 50 </p>
+        </button>
+        <button id="auto" onclick="autoClick()">auto-click </button>
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>
